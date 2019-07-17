@@ -4,11 +4,25 @@ const functions = require('./functions');
 // afterEach(() => closeDatabase());
 
 // if change to beforeAll, only run once
-beforeAll(() => initDatabase());
-afterAll(() => closeDatabase());
+// beforeAll(() => initDatabase());
+// afterAll(() => closeDatabase());
 
-const initDatabase = () => console.log('Database Initialized...')
-const closeDatabase = () => console.log('Database Closed...')
+// const initDatabase = () => console.log('Database Initialized...')
+// const closeDatabase = () => console.log('Database Closed...')
+
+//target to check the certain one beforeEach
+const nameCheck = () => console.log('Checking Name...');
+describe('Checking Name', () => {
+  beforeEach(() => nameCheck());
+  test('User is Jeff', () => {
+    const user = 'Jeff';
+    expect(user).toBe('Jeff');
+  });
+  test('User is Karen', () => {
+    const user = 'Karen';
+    expect(user).toBe('Karen');
+  });
+})
 
 //toBe
 test('Adds 2+2 to equal 4', () => {
