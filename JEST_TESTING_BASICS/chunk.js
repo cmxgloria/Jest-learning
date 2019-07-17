@@ -1,4 +1,4 @@
-const chunkedArray = (arr, len) => {
+const chunkArray = (arr, len) => {
   //init chunked arr
   const chunkedArr = [];
   //loop through Arr
@@ -15,4 +15,4 @@ const chunkedArray = (arr, len) => {
   });
   return chunkedArr;
 }
-module.exports = chunkedArray;
+module.exports = chunkArray;
