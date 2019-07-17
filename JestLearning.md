@@ -3,7 +3,7 @@ https://devhints.io/jest                  jest
 ```
 
 ```
-https://www.youtube.com/watch?v=7r4xVDI2vho            jest crash course
+https://www.youtube.com/watch?v=7r4xVDI2vho            jest crash course and it is very important and helpful with another folder
 ```
  
 
