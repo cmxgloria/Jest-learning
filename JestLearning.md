@@ -5,12 +5,11 @@ https://devhints.io/jest                  jest
 ```
 https://www.youtube.com/watch?v=7r4xVDI2vho            jest crash course
 ```
- 
-
 
 ```
 https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr&index=1           unit test in javascript
 ```
+
 ```
 const someOrder = {
   items:[
@@ -23,9 +22,9 @@ const orderTotal = order =>{
   const totalItems =order.items
   .filter(x=>!x.shipping)
   .reduce((prev,cur)=>prev + cur.price,0)}
-  const shippingItem = 
+  const shippingItem =
   order.items.find(x=>!!x.shipping)
-  const shipping = 
+  const shipping =
   totalItem > 1000 ? 0 : shippingItem.price
   return totalItems + shipping
 result = orderTotal(someOrder)
@@ -39,5 +38,12 @@ https://egoist.moe/2017/11/26/tesing-javascript-apps-using-jest/                
 ```
 https://devhints.io/enzyme
 ```
+
 enzyme is for testing react component when you npx install create react app already come with enzyme + jest for test your react component and javascript functions
 
+## good website about test
+
+https://www.npmjs.com/package/jest-fetch-mock
+https://medium.com/swlh/react-testing-using-jest-along-with-code-coverage-report-7454b5ba0236
+https://testing-library.com/docs/example-input-event/
+https://jestjs.io/docs/timer-mocks
