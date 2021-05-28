@@ -47,3 +47,4 @@ https://www.npmjs.com/package/jest-fetch-mock
 https://medium.com/swlh/react-testing-using-jest-along-with-code-coverage-report-7454b5ba0236
 https://testing-library.com/docs/example-input-event/
 https://jestjs.io/docs/timer-mocks
+https://testing-library.com/docs/example-findByText
